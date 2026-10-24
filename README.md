@@ -8,6 +8,8 @@
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D4.svg)]()
 [![Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)]()
 
+**简体中文** · [English](README.en.md)
+
 ![主界面](docs/gui-screenshot.png)
 
 ---
@@ -200,7 +202,7 @@ python cli.py URL --json
 |---|---|---|
 | `tests/verify.py` | 加速比 / 完整性 / 续传 / 退化为单连接 / 404 / 断连重试 / 暂停恢复 / 小文件 / 0 字节 / 中文名 / 限速 / MD5 | **12/12** |
 | `tests/test_auto_detect.py` | 5 类识别 + 自动目录 + 协议可逆性 | **30/30** |
-| `tests/test_features.py` | 分类目录 + 字幕联动 + 本地导入 | **18/18** |
+| `tests/test_features.py` | 分类目录 + 字幕联动 + 本地导入 | **28/28** |
 | `tests/gui_e2e.py` | 驱动 GUI 真实点击下载并校验 | 通过 |
 | `tests/test_exe.py` | 打包 exe 启动验证 | 通过 |
 | `tests/smoke.py` | 快速冒烟（限速服务器 + 加速比） | 通过 |
@@ -208,7 +210,7 @@ python cli.py URL --json
 ```bash
 python tests/verify.py            # 引擎 12 项
 python tests/test_auto_detect.py  # 识别与协议 30 项
-python tests/test_features.py     # 分类与字幕 18 项
+python tests/test_features.py     # 分类与字幕 28 项
 ```
 
 ---
