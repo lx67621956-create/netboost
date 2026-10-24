@@ -42,14 +42,16 @@
 
 ### 方式一：直接下 exe（免安装 Python）
 
-到 [Releases](../../releases) 下载：
+到 **[Releases](https://github.com/lx67621956-create/netboost/releases)** 下载：
 
 | 文件 | 用途 |
 |---|---|
-| `netboost下载器.exe` | 图形界面，双击即用（10.5 MB） |
-| `netboost命令行.exe` | 命令行版（7.5 MB） |
+| [`netboost-gui-windows-x64.exe`](https://github.com/lx67621956-create/netboost/releases/latest) | **图形界面（推荐）**，双击即用 · 10.5 MB |
+| [`netboost-cli-windows-x64.exe`](https://github.com/lx67621956-create/netboost/releases/latest) | 命令行版 · 7.5 MB |
 
 单文件绿色版，可直接拷到别的 Windows 电脑运行。
+
+> 首次启动会慢 1~3 秒（单文件 exe 需解压运行时），属正常现象。
 
 ### 方式二：源码运行
 
