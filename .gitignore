@@ -1,0 +1,58 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ---- 虚拟环境 ----
+venv/
+ENV/
+env/
+.venv/
+
+# ---- PyInstaller ----
+*.spec
+
+# ---- 打包产物（用 Release 发布，不进仓库）----
+*.exe
+dist/
+build/
+
+# ---- 下载测试残留 ----
+*.netboost.json
+*.part
+*.crdownload
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 运行时配置（不要提交用户隐私设置）----
+config.json
+.netboost/
+
+# ---- 日志 ----
+*.log
+logs/
